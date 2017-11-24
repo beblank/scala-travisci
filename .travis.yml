@@ -1,0 +1,11 @@
+language: scala
+scala:
+- 2.12.4
+script: sbt clean test
+jdk:
+- oraclejdk8
+- openjdk8
+notifications:
+  email:
+    recipients:
+    - kulik2@ymail.com
